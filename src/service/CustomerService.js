@@ -1,6 +1,6 @@
 export default class CustomerService {
   getCustomersSmall() {
-    return fetch("customers-small.json")
+    return fetch("data.json")
       .then((res) => res.json())
       .then((d) => d.data);
   }
